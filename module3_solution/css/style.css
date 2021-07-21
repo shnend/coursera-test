@@ -1,0 +1,22 @@
+#collapsable-nav {
+    background-color:darkorange;
+    margin-left:-22px;
+    margin-right:-22px;
+}
+
+#page-header {
+    margin-top: 2vw;
+    margin-bottom :2vw;
+}
+
+#big-text {
+    background-color: lightgrey;
+}
+/*
+@media (max-width: 575px) {
+    .col-xs-12 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+*/

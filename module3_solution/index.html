@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module3 Assignment Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- using bootstrap 5.0, class names and some of the definitions are different, but the basic remains the same -->
+</head>
+
+<body>
+    <nav id="header-nav" class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1>Food, LLC</h1>
+            </div>
+            <button type="button" class="navbar-toggler d-sm-none" data-bs-toggle="collapse" aria-controls="collapsable-nav"
+                data-bs-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-none">
+                    <li class="nav-item text-center"><a class="nav-link" href="#">Chicken</a></li>
+                    <li class="nav-item text-center"><a class="nav-link" href="#">Beef</a></li>
+                    <li class="nav-item text-center"><a class="nav-link" href="#">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="page-header" class="container">
+        <h2 class="text-center">Our Menu</h2>
+    </div>
+    <div id="main-content" class="container">
+        <div class="row">
+            <div class="col col-xs-12">
+                <p id="big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, elit sed ultricies fermentum, 
+                    ipsum magna maximus nunc, non interdum libero enim ut turpis. Cras at odio bibendum, efficitur nisi nec, eleifend ex. 
+                    Sed scelerisque pellentesque justo, sit amet vehicula magna pharetra et. Nunc laoreet justo ligula, vel fermentum nunc 
+                    tincidunt in. Vivamus lobortis euismod arcu, vel tempor massa congue non. Phasellus posuere sit amet dui et condimentum. 
+                    Maecenas tempor convallis felis vitae posuere. Ut sodales nec mauris tincidunt gravida. Nulla maximus imperdiet justo nec 
+                    mattis. Cras imperdiet vel tortor sit amet fermentum. Suspendisse consequat mauris eu iaculis hendrerit. Etiam posuere 
+                    justo neque, vitae ullamcorper ante tempor nec. Sed sit amet augue vitae urna varius condimentum eu interdum leo. 
+                    Vivamus accumsan ut dolor at cursus. Cras purus magna, porttitor vitae dapibus nec, vulputate a neque. 
+                    Ut pellentesque ligula et turpis maximus, eu rhoncus purus blandit. Donec pharetra nunc in augue volutpat malesuada. 
+                    Aenean lacus mi, eleifend vitae elit vel, interdum faucibus tellus. Mauris sit amet rutrum libero, quis viverra quam. 
+                    Suspendisse justo lorem, pulvinar eu hendrerit sit amet, posuere vel dolor. Etiam quis felis pharetra, fermentum mi at, 
+                    sagittis sem. Curabitur blandit elit gravida tempor viverra. Aenean turpis risus, ultrices vitae accumsan feugiat, 
+                    mattis at orci. Sed a nisl euismod, malesuada velit eu, eleifend eros. Maecenas venenatis quam eu dolor porttitor maximus. 
+                    Maecenas eros est, congue in nisi quis, faucibus lacinia erat. Aenean fringilla ante vitae tortor egestas, ac semper metus 
+                    tincidunt. Fusce nec ex et felis convallis gravida. Nulla suscipit varius elit et pulvinar. Maecenas eu sem dapibus, 
+                    gravida neque non, egestas justo. Nam erat velit, fermentum sed sollicitudin vitae, aliquet ac risus. Nullam fermentum 
+                    massa ac arcu bibendum lobortis. Suspendisse aliquam dolor eget condimentum pulvinar. Etiam interdum ex porttitor 
+                    molestie cursus. Nunc ac mi euismod nibh interdum varius id ac enim. Sed ut tortor ipsum. Fusce rhoncus venenatis 
+                    est non pulvinar. Phasellus ac tristique quam. Morbi pretium et sem nec vulputate. Integer ultricies molestie ante 
+                    vel imperdiet. Quisque pulvinar a tortor ut faucibus. In tincidunt at est et imperdiet. Etiam ultricies massa lectus, 
+                    vitae viverra justo varius vitae. Sed nec dignissim libero. Curabitur eu justo mollis sem pretium pulvinar vitae ac nibh. 
+                    Donec tincidunt odio augue, ac scelerisque ex vulputate eget. Vestibulum odio lacus, pharetra ut pretium at, 
+                    bibendum a ante. Maecenas non risus ut tellus laoreet eleifend ut id leo.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
